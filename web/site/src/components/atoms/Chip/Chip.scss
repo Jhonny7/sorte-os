@@ -1,0 +1,93 @@
+.chip {
+    font-size: var(--font-size-xs);
+    padding: var(--gutter-xxxs) var(--gutter-xsmall);
+    color: var(--color-primary-dark);
+    width: fit-content;
+    border-radius: var(--gutter-medium);
+    cursor: pointer;
+    flex: 0 0 auto;
+    height: fit-content;
+    background: #cfcfcf;
+    font-size: 10px;
+    padding: 4px 8px;
+    border-radius: 40px;
+
+    //Complementar 
+
+    &.chip-default {
+        background-color: var(--Auxiliary---Blue-50);
+        color: var(--Auxiliary---Blue-700);
+        border-radius: 50px;
+        font-family: var(--font-medium);
+    }
+
+    &.chip-success,
+    &.chip-active,
+    &.chip-ACTIVE {
+        background-color: var(--insurance-card-success-bg);
+        color: var(--insurance-card-success-text);
+        border-radius: var(--gutter-xxxs);
+
+    }
+
+    &.chip-QUOTATION,
+    &.chip-PENDING,
+    &.chip-info {
+        background-color: var(--insurance-card-info-bg);
+        color: var(--insurance-card-info-text);
+        border-radius: var(--gutter-xxxs);
+    }
+
+    &.chip-warning,
+    &.chip-WARNING {
+        background-color: var(--insurance-card-warning-bg);
+        color: var(--insurance-card-warning-text);
+        border-radius: var(--gutter-xxxs);
+    }
+
+    &.chip-danger,
+    &.chip-inactive,
+    &.chip-INACTIVE,
+    &.chip-CANCELLED {
+        background-color: var(--insurance-card-error-bg);
+        color: var(--insurance-card-error-text);
+        border-radius: var(--gutter-xxxs);
+    }
+
+}
+
+.chip-active,
+.chip-ACTIVE {
+    background-color: var(--insurance-card-success-bg);
+    color: var(--insurance-card-success-text);
+    border-radius: var(--gutter-xxxs);
+
+}
+
+.chip-QUOTATION,
+.chip-PENDING {
+    background-color: var(--insurance-card-info-bg);
+    color: var(--insurance-card-info-text);
+    border-radius: var(--gutter-xxxs);
+}
+
+.chip-WARNING {
+    background-color: var(--insurance-card-warning-bg);
+    color: var(--insurance-card-warning-text);
+    border-radius: var(--gutter-xxxs);
+}
+
+.chip-INACTIVE,
+.chip-CANCELLED {
+    background-color: var(--insurance-card-error-bg);
+    color: var(--insurance-card-error-text);
+    border-radius: var(--gutter-xxxs);
+}
+
+.chipActive {
+    background-color: var(--color-primary-hover-light);
+}
+
+.chipNoActive {
+    color: var(--color-font-subtitle);
+}

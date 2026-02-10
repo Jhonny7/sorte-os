@@ -1,0 +1,55 @@
+.menu-item {
+  padding: 6px 1rem;
+  background: none;
+  border: none;
+  text-align: left;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  cursor: pointer;
+  font-size: 14px;
+  width: 100%;
+  border-bottom: 1px solid #f5f5f5;
+
+  .left {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+
+    span {
+      font-size: 15px;
+    }
+
+    .label {
+      font-size: 14px;
+    }
+  }
+
+  .arrow {
+    font-size: 0.8rem;
+    color: #888;
+  }
+
+  &:hover {
+    background-color: #f5f5f5;
+  }
+}
+
+.menu-children {
+  overflow: hidden;
+  max-height: 0;
+  opacity: 0;
+  transition: max-height 0.3s ease, opacity 0.9s ease;
+  padding-left: 1.5rem;
+
+  &.open {
+    opacity: 1;
+  }
+}
+
+.collapsed {
+  .menu-children {
+    padding-left: 0px;
+  }
+}

@@ -1,0 +1,36 @@
+.current-location-container {
+  height: calc(100dvh - 63px);
+  display: flex;
+  flex-direction: column;
+  .current-location-header {
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    width: calc(100% - 20px);
+    margin-bottom: 20px;
+    h1 {
+      margin: auto;
+      font-weight: normal;
+    }
+    .current-location-back-button {
+      cursor: pointer;
+    }
+  }
+
+  .current-map {
+    height: 100%;
+    width: 100%;
+    z-index: 0;
+  }
+  .ok-button {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    width: fit-content;
+    color: initial !important;
+    background-color: #fff !important;
+    border: 2px solid #000;
+    box-shadow: none;
+  }
+}

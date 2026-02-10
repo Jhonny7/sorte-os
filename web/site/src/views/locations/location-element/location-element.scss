@@ -1,0 +1,51 @@
+.locations {
+  margin: 10px;
+  margin-bottom: 15px;
+  padding: 10px;
+  border-radius: 0px 0px 10px 10px;
+  box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.15), -4px 4px 8px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: space-between;
+  justify-content: start;
+  align-items: center;
+  width: calc(100% - 40px);
+}
+.location-element{
+  height: fit-content;
+}
+.icon-house {
+  min-width: 35px;
+  min-height: 35px;
+  border-radius: 100%;
+  justify-items: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #dddd;
+}
+
+.elements {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  width: 100%;
+  margin: 20px;
+  p {
+    margin: 0;
+  }
+  .near {
+    color: green;
+  }
+  .references {
+    color: #666;
+    font-size: 12px;
+  }
+}
+
+.actions {
+  .delete {
+    color: rgb(255, 0, 0);
+  }
+  display: flex;
+  cursor: pointer;
+}

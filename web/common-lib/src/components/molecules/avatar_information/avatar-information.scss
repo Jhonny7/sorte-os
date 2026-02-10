@@ -1,0 +1,27 @@
+.avatar-information {
+    align-items: center;
+    display: grid;
+    align-items: center;
+    gap: 16px;
+    margin-bottom: 20px;
+    width: 100%;
+    grid-template-columns: 64px minmax(0, 1fr);
+
+    p {
+        color: var(--Neutral-0, #FFF);
+        font-family: Nunito;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 20px;
+        /* 125% */
+        letter-spacing: -0.176px;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
+    p:nth-child(2) {
+        margin-top: 8px;
+    }
+}

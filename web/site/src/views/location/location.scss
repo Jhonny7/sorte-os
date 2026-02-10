@@ -1,0 +1,28 @@
+.location {
+    padding: 16px;
+    max-height: 50vh;
+
+    .titlel {
+        font-weight: 700;
+        margin-bottom: 16px;
+    }
+
+    .address-card {
+        margin-bottom: 10px;
+    }
+
+
+}
+
+.address-card:last-child {
+    padding-bottom: 80px;
+}
+
+.locationfull{
+    padding: 0;
+    max-height: 100%;
+}
+
+.fabfull{
+    bottom: 78px !important;
+}

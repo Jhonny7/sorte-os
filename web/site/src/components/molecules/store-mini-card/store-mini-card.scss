@@ -1,0 +1,47 @@
+.store-mini-card {
+    display: grid;
+    gap: 16px;
+    align-items: start;
+    grid-template-columns: 60px 1fr;
+
+    .container-image {
+        height: 60px;
+        height: 60px;
+        border-radius: 8px;
+
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            border-radius: 8px;
+        }
+    }
+
+    .container-texts {
+        p {
+            font-size: 12px;
+            font-weight: 700;
+            margin-bottom: 8px;
+        }
+    }
+
+    .chips {
+        display: flex;
+        gap: 8px;
+        align-items: center;
+
+        .chip {
+            display: flex;
+            gap: 2px;
+            align-items: center;
+
+            span {
+                font-size: 10px;
+            }
+
+            span:nth-child(1){
+                font-size: 12px;
+            }
+        }
+    }
+}

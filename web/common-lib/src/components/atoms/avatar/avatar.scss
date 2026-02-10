@@ -1,0 +1,16 @@
+.avatar {
+    display: flex;
+    width: 60px;
+    height: 60px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+    border-radius: 50%;
+    border: 2px solid var(--Primary-30, #C98BFF);
+    background: var(--Primary-20, #D9AEFF);
+
+    /* shadow 1 */
+    box-shadow: 0px 4px 6px 0px rgba(44, 46, 51, 0.15);
+}

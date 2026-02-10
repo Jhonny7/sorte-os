@@ -1,0 +1,106 @@
+.dish-card {
+    height: 120px;
+    width: 120px;
+    border-radius: 16px;
+    position: relative;
+    flex: 0 0 auto;
+    box-shadow: 1px 1px 4px #aea7a7;
+
+    .offers {
+        position: absolute;
+        top: -6px;
+        right: -8px;
+        color: #ffd;
+        background: #1eb916;
+        height: 25px;
+        width: 25px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50%;
+
+        span {
+            font-weight: 800;
+            font-size: 16px;
+        }
+    }
+
+    .combos {
+        position: absolute;
+        z-index: 2;
+        background-color: #bf2800;
+        color: #fff;
+        font-size: 12px;
+        top: 8px;
+        left: 8px;
+        border-radius: 10px;
+        padding: 2px 8px;
+        border: 0.5px solid;
+    }
+
+    img {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border-radius: 16px;
+    }
+
+    .title {
+        color: var(--Neutral-80, #2C2E33);
+        font-family: Ubuntu;
+        font-size: 13px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        letter-spacing: 0.5px;
+        margin-bottom: 8px;
+        background: #fff;
+        position: absolute;
+        bottom: -8px;
+        width: 100%;
+        border-radius: 0 0 16px 16px;
+        padding: 4px 8px;
+        box-sizing: border-box;
+    }
+
+    .price {
+        position: absolute;
+        z-index: 2;
+        background: #FFF;
+        font-size: 10px;
+        bottom: 0;
+        height: 30px;
+        left: 0;
+        border-radius: 0px 0px 16px 16px;
+        box-sizing: border-box;
+        padding: 0 8px;
+        text-align: left;
+        width: 100%;
+
+        p:nth-child(1) {
+            font-size: 10px;
+            font-weight: 700;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            width: 200px;
+        }
+
+        p:nth-child(2) {
+            font-size: 12px;
+            font-weight: 700;
+            color: #187d14;
+
+            span:nth-child(2) {
+                margin-left: 4px;
+                font-size: 14px;
+            }
+
+            .back-price {
+                color: #8d8989;
+                text-decoration: line-through;
+            }
+        }
+    }
+}

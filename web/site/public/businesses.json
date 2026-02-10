@@ -1,0 +1,26 @@
+[
+  {
+    "id": "omar",
+    "name": "Tacos y Tortas de Barbacoa Omar",
+    "category": "tacos",
+    "image": "https://cdn-icons-png.flaticon.com/512/5787/5787016.png",
+    "time": 35,
+    "distance": 70.1
+  },
+  {
+    "id": "cochinita",
+    "name": "La Cochinita",
+    "category": "tacos",
+    "image": "https://cdn-icons-png.flaticon.com/512/5787/5787016.png",
+    "time": 35,
+    "distance": 71.4
+  },
+  {
+    "id": "zombieburger",
+    "name": "Zombie Burger (Norte)",
+    "category": "hamburguesas",
+    "image": "https://cdn-icons-png.flaticon.com/512/5787/5787017.png",
+    "time": 35,
+    "distance": 70.5
+  }
+]

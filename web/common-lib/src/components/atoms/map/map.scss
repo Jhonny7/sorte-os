@@ -1,0 +1,7 @@
+.leaflet-control-attribution>a{
+//display: none;
+}
+
+.leaflet-control-attribution a[href="https://leafletjs.com"] {
+  display: none !important;
+}

@@ -1,0 +1,71 @@
+{
+  "omar": [
+    {
+      "id": "taco_barbacoa_simple",
+      "name": "Taco de Barbacoa",
+      "description": "Tortilla de maíz con barbacoa de res, cebolla y cilantro.",
+      "price": 18,
+      "image": "https://cdn-icons-png.flaticon.com/512/5787/5787016.png"
+    },
+    {
+      "id": "torta_barbacoa",
+      "name": "Torta de Barbacoa",
+      "description": "Pan telera con barbacoa, frijoles, lechuga, tomate y salsa.",
+      "price": 55,
+      "image": "https://cdn-icons-png.flaticon.com/512/5787/5787016.png"
+    },
+    {
+      "id": "consome_barbacoa",
+      "name": "Consomé de Barbacoa",
+      "description": "Caldo tradicional de barbacoa con garbanzos y arroz.",
+      "price": 32,
+      "image": "https://cdn-icons-png.flaticon.com/512/3075/3075977.png"
+    }
+  ],
+  "cochinita": [
+    {
+      "id": "taco_cochinita",
+      "name": "Taco de Cochinita",
+      "description": "Cochinita pibil con cebolla morada encurtida y salsa de habanero.",
+      "price": 20,
+      "image": "https://cdn-icons-png.flaticon.com/512/5787/5787016.png"
+    },
+    {
+      "id": "torta_cochinita",
+      "name": "Torta de Cochinita",
+      "description": "Telera con cochinita, frijoles, aguacate y cebolla morada.",
+      "price": 58,
+      "image": "https://cdn-icons-png.flaticon.com/512/5787/5787016.png"
+    },
+    {
+      "id": "gringa_cochinita",
+      "name": "Gringa de Cochinita",
+      "description": "Tortilla de harina con queso fundido y cochinita pibil.",
+      "price": 45,
+      "image": "https://cdn-icons-png.flaticon.com/512/5787/5787016.png"
+    }
+  ],
+  "zombieburger": [
+    {
+      "id": "clasica",
+      "name": "Clásica",
+      "description": "Preparadas al carbón con 200gr de sirloin con lechuga, tomate, ...",
+      "price": 145,
+      "image": "https://cdn-icons-png.flaticon.com/512/5787/5787017.png"
+    },
+    {
+      "id": "double",
+      "name": "Double",
+      "description": "Preparadas al carbón con doble carne de sirloin, lechuga, tomate, ...",
+      "price": 220,
+      "image": "https://cdn-icons-png.flaticon.com/512/5787/5787017.png"
+    },
+    {
+      "id": "zombie",
+      "name": "Zombie",
+      "description": "Especialidad de la casa con ingredientes secretos ...",
+      "price": 195,
+      "image": "https://cdn-icons-png.flaticon.com/512/5787/5787017.png"
+    }
+  ]
+}

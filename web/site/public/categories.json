@@ -1,0 +1,32 @@
+[
+  {
+    "id": "tacos",
+    "name": "Tacos",
+    "image": "https://familiakitchen.com/wp-content/uploads/2021/01/iStock-960337396-3beef-barbacoa-tacos-e1695391119564.jpg"
+  },
+  {
+    "id": "tortas",
+    "name": "Tortas",
+    "image": "https://recetatorta.com/wp-content/uploads/2023/11/Receta-de-torta-de-la-barda-al-estilo-Tampico.jpg"
+  },
+  {
+    "id": "papas",
+    "name": "Papas",
+    "image": "https://munchieslab.com.mx/wp-content/uploads/2022/04/PortadaPapaAsada-1000x675.png"
+  },
+  {
+    "id": "postres",
+    "name": "Postres",
+    "image": "https://images.aws.nestle.recipes/resized/2024_10_23T08_34_55_badun_images.badun.es_pastelitos_de_chocolate_blanco_y_queso_con_fresas_1290_742.jpg"
+  },
+  {
+    "id": "pizza",
+    "name": "Pizza",
+    "image": "https://i.blogs.es/71bcb5/pizza/650_1200.jpg"
+  },
+  {
+    "id": "hamburguesa",
+    "name": "Hamburguesa",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSqIvY_EddgWVLKNZD3S-xTjijRkfogKFxFkA&s"
+  }
+]

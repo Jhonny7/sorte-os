@@ -1,0 +1,23 @@
+[
+  {
+    "id": "clasica",
+    "name": "Clásica",
+    "description": "Preparadas al carbón con 200gr de sirloin con lechuga, tomate, ...",
+    "price": 145,
+    "image": "https://cdn-icons-png.flaticon.com/512/5787/5787017.png"
+  },
+  {
+    "id": "double",
+    "name": "Double",
+    "description": "Preparadas al carbón con doble carne de sirloin, lechuga, tomate, ...",
+    "price": 220,
+    "image": "https://cdn-icons-png.flaticon.com/512/5787/5787017.png"
+  },
+  {
+    "id": "zombie",
+    "name": "Zombie",
+    "description": "Especialidad de la casa con ingredientes secretos ...",
+    "price": 195,
+    "image": "https://cdn-icons-png.flaticon.com/512/5787/5787017.png"
+  }
+]

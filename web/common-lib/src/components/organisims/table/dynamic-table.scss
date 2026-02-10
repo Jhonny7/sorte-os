@@ -1,0 +1,251 @@
+table {
+    border: 1px solid #ccc;
+    border-collapse: collapse;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    table-layout: fixed;
+}
+
+table caption {
+    font-size: 1.5em;
+    margin: .5em 0 .75em;
+}
+
+table tr {
+    background-color: #f8f8f8;
+    border: 1px solid #ddd;
+    padding: .35em;
+}
+
+table th,
+table td {
+    padding: .625em;
+    text-align: center;
+}
+
+table th {
+    font-size: .85em;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+}
+
+@media screen and (max-width: 600px) {
+    table {
+        border: 0;
+    }
+
+    table caption {
+        font-size: 1.3em;
+    }
+
+    table thead {
+        border: none;
+        clip: rect(0 0 0 0);
+        height: 1px;
+        margin: -1px;
+        overflow: hidden;
+        padding: 0;
+        position: absolute;
+        width: 1px;
+    }
+
+    table tr {
+        border-bottom: 3px solid #ddd;
+        display: block;
+        margin-bottom: .625em;
+    }
+
+    table td {
+        border-bottom: 1px solid #ddd;
+        display: block;
+        font-size: .8em;
+        text-align: right;
+    }
+
+    table td::before {
+        /*
+    * aria-label has no advantage, it won't be read inside a table
+    content: attr(aria-label);
+    */
+        content: attr(data-label);
+        float: left;
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+
+    table td:last-child {
+        border-bottom: 0;
+    }
+}
+
+.dynamic-table {
+    thead {
+        tr {
+            background-color: #833177;
+            color: #fff;
+
+            .checkbox-column {
+                width: 40px;
+            }
+
+            @media(max-width:720px) {
+                .checkbox-column {
+                    width: -webkit-fill-available;
+                    /* Chrome/Safari */
+                    width: -moz-available;
+                    /* Firefox */
+                    width: fill-available;
+                    /* Estándar */
+                }
+            }
+        }
+    }
+
+    tbody {
+        tr {
+            td {
+                border-right: 1px solid #d5cece;
+
+                @media(max-width:720px) {
+                    border-right: none;
+                }
+            }
+
+            .checkbox-column {
+                width: 40px;
+            }
+
+            @media(max-width:720px) {
+                .checkbox-column {
+                    width: -webkit-fill-available;
+                    /* Chrome/Safari */
+                    width: -moz-available;
+                    /* Firefox */
+                    width: fill-available;
+                    /* Estándar */
+                }
+            }
+        }
+
+        tr:nth-child(even) {
+            background-color: #ffffff;
+        }
+
+        tr:nth-child(odd) {
+            background-color: #ffffff;
+        }
+    }
+}
+
+.search-content {
+    padding: 24px 18px;
+    box-shadow: 1px 1px 1px #f2eeee;
+    margin-bottom: 20px;
+    border: 1px solid #e6e2e2;
+    border-radius: 3px;
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+
+    .search-bar {
+        display: flex;
+        gap: 10px;
+        flex: 1;
+        align-items: center;
+
+        .module-title {
+            font-size: 18px;
+        }
+
+        .searcher {
+            display: flex;
+            gap: 0px;
+            flex: 1;
+
+            div {
+                background-color: #833177;
+                color: #fff;
+                padding: 8px;
+                border: none;
+                border-radius: 4px 0 0px 4px;
+                width: 100px;
+                text-align: center;
+            }
+
+            input {
+                margin-left: -2px;
+                width: 100%;
+                border: 1px solid #333;
+                border-left: 0px;
+                border-radius: 0px 4px 4px 0px;
+                padding-left: 20px;
+
+            }
+        }
+    }
+
+    .actions {
+        display: flex;
+        gap: 10px;
+
+        button {
+            padding: 4px 10px;
+            display: flex;
+            gap: 10px;
+            justify-content: space-between;
+            align-items: center;
+            height: 34.5px;
+            border-radius: 4px;
+            background: #833177;
+            outline: none;
+            border: none;
+            color: #fff;
+            cursor: pointer;
+
+            span {
+                font-size: 16px;
+            }
+        }
+    }
+}
+
+@media(max-width:720px) {
+    .search-content {
+        flex-direction: column;
+        align-items: start;
+
+        .search-bar {
+            width: 100%;
+
+            @media(max-width: 450px) {
+                .module-title {
+                    display: none;
+                }
+            }
+        }
+
+        .actions {
+            width: 100%;
+
+            button {
+                width: 100%;
+                text-align: center;
+                justify-content: center;
+
+                span {
+                    display: none;
+                }
+            }
+        }
+    }
+}
+
+.content-table {
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 4px;
+    box-shadow: 1px 1px 1px #f2eeee;
+}

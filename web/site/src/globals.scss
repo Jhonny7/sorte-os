@@ -1,0 +1,890 @@
+.ubuntu-light {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.ubuntu-regular {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.ubuntu-medium {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.ubuntu-bold {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.ubuntu-light-italic {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.ubuntu-regular-italic {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.ubuntu-medium-italic {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.ubuntu-bold-italic {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 400;
+  /* Regular */
+
+
+}
+
+input {
+  outline: none;
+}
+
+/*ALERTS*/
+.swal2-popup.sidebar-alert {
+  width: 400px !important;
+  height: 100vh;
+  margin: 0;
+  top: 0 !important;
+  right: 0 !important;
+  left: auto !important;
+  bottom: 0 !important;
+  position: fixed;
+  border-radius: 0 !important;
+}
+
+.swal2-show.sidebar-alert {
+  animation: slideIn 0.3s ease-out forwards;
+}
+
+.swal2-hide.sidebar-alert {
+  animation: slideOut 0.3s ease-in forwards;
+}
+
+@keyframes slideIn {
+  from {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes slideOut {
+  from {
+    transform: translateX(0);
+    opacity: 1;
+  }
+
+  to {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+}
+
+
+.my-toast-popup {
+  animation: fadeIn 0.3s ease-out, fadeOut 0.5s ease-in forwards;
+  padding: 10px 15px;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+.toast-success {
+  background: #d4edda !important;
+  color: #155724;
+  border-radius: 4px !important;
+
+  button {
+    font-size: 21px !important;
+    position: absolute;
+    top: -10px;
+    right: -8px;
+    color: #155724;
+  }
+
+  .swal2-timer-progress-bar {
+    background-color: #155724;
+  }
+}
+
+.toast-error {
+  background: #f8d7da !important;
+  color: #721c24;
+  border-radius: 4px !important;
+
+  button {
+    font-size: 21px !important;
+    position: absolute;
+    top: -10px;
+    right: -8px;
+    color: #424508;
+  }
+
+  .swal2-timer-progress-bar {
+    background-color: #721c24;
+  }
+}
+
+.toast-warn {
+  background: #fff3cd !important;
+  color: #856404;
+  border-radius: 4px !important;
+
+  button {
+    font-size: 21px !important;
+    position: absolute;
+    top: -10px;
+    right: -8px;
+    color: #424508;
+  }
+
+  .swal2-timer-progress-bar {
+    background-color: #856404;
+  }
+}
+
+.toast-info {
+
+  background: #d1ecf1 !important;
+  color: #0c5460;
+  border-radius: 4px !important;
+
+  button {
+    font-size: 21px !important;
+    position: absolute;
+    top: -10px;
+    right: -8px;
+    color: #0c5460;
+  }
+
+  .swal2-timer-progress-bar {
+    background-color: #0c5460;
+  }
+}
+
+/* Fade animation */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeOut {
+  to {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+}
+
+.ubuntu-light {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.ubuntu-regular {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.ubuntu-medium {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.ubuntu-bold {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.ubuntu-light-italic {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.ubuntu-regular-italic {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.ubuntu-medium-italic {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.ubuntu-bold-italic {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 400;
+  /* Regular */
+
+
+}
+
+input {
+  outline: none;
+}
+
+/*ALERTS*/
+.swal2-popup.sidebar-alert {
+  width: 400px !important;
+  height: 100vh;
+  margin: 0;
+  top: 0 !important;
+  right: 0 !important;
+  left: auto !important;
+  bottom: 0 !important;
+  position: fixed;
+  border-radius: 0 !important;
+}
+
+.swal2-show.sidebar-alert {
+  animation: slideIn 0.3s ease-out forwards;
+}
+
+.swal2-hide.sidebar-alert {
+  animation: slideOut 0.3s ease-in forwards;
+}
+
+@keyframes slideIn {
+  from {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes slideOut {
+  from {
+    transform: translateX(0);
+    opacity: 1;
+  }
+
+  to {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+}
+
+
+.my-toast-popup {
+  animation: fadeIn 0.3s ease-out, fadeOut 0.5s ease-in forwards;
+  padding: 10px 15px;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+.toast-success {
+  background: #d4edda !important;
+  color: #155724;
+  border-radius: 4px !important;
+
+  button {
+    font-size: 21px !important;
+    position: absolute;
+    top: -10px;
+    right: -8px;
+    color: #155724;
+  }
+
+  .swal2-timer-progress-bar {
+    background-color: #155724;
+  }
+}
+
+.toast-error {
+  background: #f8d7da !important;
+  color: #721c24;
+  border-radius: 4px !important;
+
+  button {
+    font-size: 21px !important;
+    position: absolute;
+    top: -10px;
+    right: -8px;
+    color: #424508;
+  }
+
+  .swal2-timer-progress-bar {
+    background-color: #721c24;
+  }
+}
+
+.toast-warn {
+  background: #fff3cd !important;
+  color: #856404;
+  border-radius: 4px !important;
+
+  button {
+    font-size: 21px !important;
+    position: absolute;
+    top: -10px;
+    right: -8px;
+    color: #424508;
+  }
+
+  .swal2-timer-progress-bar {
+    background-color: #856404;
+  }
+}
+
+.toast-info {
+
+  background: #d1ecf1 !important;
+  color: #0c5460;
+  border-radius: 4px !important;
+
+  button {
+    font-size: 21px !important;
+    position: absolute;
+    top: -10px;
+    right: -8px;
+    color: #0c5460;
+  }
+
+  .swal2-timer-progress-bar {
+    background-color: #0c5460;
+  }
+}
+
+/* Fade animation */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeOut {
+  to {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+}
+
+.nextjs-toast {
+  display: none !important;
+}
+
+nextjs-portal {
+  display: none !important;
+}
+
+.poppins-thin {
+  font-family: "Poppins", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.poppins-extralight {
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+}
+
+.poppins-light {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.poppins-regular {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.poppins-medium {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.poppins-semibold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.poppins-bold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.poppins-extrabold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+}
+
+.poppins-black {
+  font-family: "Poppins", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.poppins-thin-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 100;
+  font-style: italic;
+}
+
+.poppins-extralight-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  font-style: italic;
+}
+
+.poppins-light-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.poppins-regular-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.poppins-medium-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.poppins-semibold-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: italic;
+}
+
+.poppins-bold-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.poppins-extrabold-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  font-style: italic;
+}
+
+.poppins-black-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 900;
+  font-style: italic;
+}
+
+p {
+  margin: 0;
+}
+
+input {
+  width: -moz-available;
+}
+
+html,
+body {
+  overflow-x: hidden; // Elimina scroll horizontal
+}
+
+// Custom scrollbar
+body {
+  scrollbar-width: thin;
+  /* Firefox */
+  scrollbar-color: #BF2900 transparent;
+  /* Firefox */
+}
+
+// Para Chrome, Edge y Safari
+body::-webkit-scrollbar {
+  width: 8px;
+}
+
+body::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #6724D7;
+  border-radius: 4px;
+  border: 2px solid transparent;
+  background-clip: content-box;
+}
+
+.title {
+  color: var(--Neutral-80, #2C2E33);
+  font-family: Ubuntu;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.5px;
+  margin-bottom: 8px;
+}
+
+.description {
+  color: var(--Neutral-80, #2C2E33);
+  font-family: Ubuntu;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+  margin-bottom: 20px;
+}
+
+.top-label {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.top-center img {
+  width: 60px !important;
+}
+
+.as-sidebar.mobile.open {
+  width: 70% !important;
+}
+
+
+/*ALERTS*/
+.swal2-popup.sidebar-alert {
+  width: 400px !important;
+  height: 100vh;
+  margin: 0;
+  top: 0 !important;
+  right: 0 !important;
+  left: auto !important;
+  bottom: 0 !important;
+  position: fixed;
+  border-radius: 0 !important;
+}
+
+.swal2-show.sidebar-alert {
+  animation: slideIn 0.3s ease-out forwards;
+}
+
+.swal2-hide.sidebar-alert {
+  animation: slideOut 0.3s ease-in forwards;
+}
+
+@keyframes slideIn {
+  from {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes slideOut {
+  from {
+    transform: translateX(0);
+    opacity: 1;
+  }
+
+  to {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+}
+
+/* ALERTS: Modal deslizable desde abajo */
+.swal2-popup.bottom-slide-alert {
+  width: 100% !important;
+  max-width: 100%;
+  margin: 0;
+  position: fixed !important;
+  bottom: 0 !important;
+  top: auto !important;
+  left: 0 !important;
+  right: 0 !important;
+  border-radius: 20px 20px 0 0;
+  animation: slideUp 0.35s ease-out forwards;
+  padding: 1.5rem;
+  height: auto;
+  max-height: 90vh;
+  /* Limita en pantallas pequeñas */
+  overflow-y: auto;
+  /* Agrega scroll si excede el viewport */
+  box-sizing: border-box;
+}
+
+.swal2-hide.bottom-slide-alert {
+  animation: slideDown 0.3s ease-in forwards;
+}
+
+@keyframes slideUp {
+  from {
+    transform: translateY(100%);
+    opacity: 1;
+  }
+
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes slideDown {
+  from {
+    transform: translateY(0);
+    opacity: 1;
+  }
+
+  to {
+    transform: translateY(100%);
+    opacity: 1;
+  }
+}
+
+
+
+.my-toast-popup {
+  animation: fadeIn 0.3s ease-out, fadeOut 0.5s ease-in forwards;
+  padding: 10px 15px;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+.toast-success {
+  background: #138a2a !important;
+  color: #ededed;
+  border-radius: 4px !important;
+  border-radius: 40px !important;
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px;
+  padding: 0 !important;
+  left: 10px;
+  position: fixed;
+  width: calc(100% - 20px) !important;
+  top: 20px;
+
+  button {
+    font-size: 16px !important;
+    position: absolute;
+    top: -10px;
+    right: -8px;
+    color: #155724;
+  }
+
+  .swal2-timer-progress-bar {
+    background-color: #155724;
+  }
+}
+
+.toast-error {
+  background: #f8d7da !important;
+  color: #721c24;
+  border-radius: 4px !important;
+  left: 10px;
+  position: fixed;
+  width: calc(100% - 20px) !important;
+  top: 20px;
+
+  button {
+    font-size: 21px !important;
+    position: absolute;
+    top: -10px;
+    right: -8px;
+    color: #424508;
+  }
+
+  .swal2-timer-progress-bar {
+    background-color: #721c24;
+  }
+}
+
+body.swal2-toast-shown .swal2-container {
+  box-sizing: border-box;
+  width: 360px;
+  max-width: 100%;
+  background-color: rgba(0, 0, 0, 0);
+  pointer-events: none;
+  min-width: 487px;
+}
+
+.toast-warn {
+
+  button {
+    font-size: 21px !important;
+    position: absolute;
+    top: 9px;
+    right: 10px;
+    color: #333;
+  }
+
+  .swal2-timer-progress-bar {
+    background-color: #856404;
+  }
+
+  background: #fff3cd !important;
+  color: #856404;
+  border-radius: 4px !important;
+  border-radius: 40px !important;
+  background: #fff3cd !important;
+  color: #856404;
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px;
+  padding: 0 !important;
+  left: 10px;
+  position: fixed;
+  width: calc(100% - 20px) !important;
+  top: 20px;
+
+  .swal2-html-container {
+    margin: 0 !important;
+    padding: 8px 16px;
+  }
+}
+
+.toast-info {
+  background: #d1ecf1 !important;
+  color: #0c5460;
+  border-radius: 4px !important;
+  left: 10px;
+  position: fixed;
+  width: calc(100% - 20px) !important;
+  top: 20px;
+
+  button {
+    font-size: 21px !important;
+    position: absolute;
+    top: -10px;
+    right: -8px;
+    color: #0c5460;
+  }
+
+  .swal2-timer-progress-bar {
+    background-color: #0c5460;
+  }
+}
+
+/* Fade animation */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeOut {
+  to {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+}
+
+.MuiDrawer-paper {
+  transition: box-shadow 0.3s ease, opacity 0.3s ease;
+  opacity: 0;
+}
+
+.MuiDrawer-paper.MuiDrawer-paperAnchorBottom {
+  opacity: 1;
+}
+
+.my-custom-bottom-modal {
+  border-top-left-radius: 14px;
+  border-top-right-radius: 14px;
+  box-shadow: 0 -12px 40px rgba(0, 0, 0, .28);
+}
+
+.options {
+  padding: 26px 16px;
+  height: calc(100vh - 116px);
+  overflow-y: scroll;
+}
+
+.modal-sticky-header {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  background-color: #fff;
+  padding: 16px;
+  border-bottom: 1px solid #ddd;
+
+  h3 {
+    margin: 0;
+  }
+}
+
+.modal-scrollable-content {
+  max-height: 60vh;
+  overflow: auto;
+  padding-bottom: 40px;
+}
+
+.modal-scrollable-contentfull {
+  max-height: calc(100vh - 168px);
+}

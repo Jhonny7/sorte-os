@@ -1,0 +1,7 @@
+node_modules
+vite.config.ts
+src
+*.log
+*.tgz
+tsconfig.json
+.eslintrc.js

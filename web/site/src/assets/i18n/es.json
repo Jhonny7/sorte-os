@@ -1,0 +1,186 @@
+{
+  "hello": "Hola",
+  "welcome": "Bienvenido",
+  "logout": "Cerrar sesión",
+  "common": {
+    "cancel": "Cancelar",
+    "accept": "Aceptar",
+    "loading": "Cargando",
+    "error": "Error",
+    "edit": "Editar",
+    "delete": "Eliminar",
+    "save": "Guardar",
+    "select": "[--Selecciona--]"
+  },
+  "login": {
+    "title": "Inicia sesión o registrate",
+    "description": "Ingresa para conocer como canjear este beneficio",
+    "username": "Usuario",
+    "password": "Contraseña",
+    "not-account": "¿Aún no tienes cuenta?",
+    "register": "¿Ya tienes cuenta?",
+    "login": "Aceptar",
+    "here": "Regístrate"
+  },
+  "errors": {
+    "required": "Campo requerido"
+  },
+  "terms_and_conditions": {
+    "title": "Términos y condiciones",
+    "description": "Bienvenido(a) a [Nombre del servicio/producto]. \nAl acceder o utilizar este sitio web/aplicación, aceptas cumplir con estos Términos y Condiciones. Te recomendamos leerlos detenidamente.",
+    "points": {
+      "1. Aceptación de uso": "El uso de nuestros servicios implica que estás de acuerdo con las reglas, políticas y condiciones aquí descritas. Si no estás de acuerdo con alguna parte, por favor no utilices el servicio.",
+      "2. Uso permitido": "Puedes utilizar este servicio únicamente para fines legales y personales. Queda prohibido el uso indebido, fraudulento, o que interfiera con el funcionamiento del sistema.",
+      "3. Propiedad intelectual": "Todos los contenidos, marcas, logos y diseños son propiedad de [Nombre de la empresa] y están protegidos por las leyes de propiedad intelectual. No puedes copiar, reproducir o distribuir sin autorización previa.",
+      "4. Privacidad": "El tratamiento de tus datos se rige por nuestro Aviso de Privacidad. Al usar el servicio, aceptas que recopilemos y usemos tu información según lo descrito en dicho aviso.",
+      "5. Modificaciones": "Podemos actualizar estos Términos en cualquier momento. Te notificaremos los cambios relevantes. El uso continuado del servicio implica la aceptación de los nuevos términos.",
+      "6. Limitación de responsabilidad": "[Nombre de la empresa] no será responsable por daños directos o indirectos derivados del uso o imposibilidad de uso del servicio.",
+      "7. Contacto": "Si tienes dudas sobre estos Términos y Condiciones, puedes escribirnos a: [correo@dominio.com]."
+    }
+  },
+  "privacy_policy": {
+    "title": "Aviso de privacidad",
+    "description": "Bienvenido(a) a [Nombre del servicio/producto]. \nAl acceder o utilizar este sitio web/aplicación, aceptas cumplir con estos Términos y Condiciones. Te recomendamos leerlos detenidamente.",
+    "points": {
+      "1. Aceptación de uso": "El uso de nuestros servicios implica que estás de acuerdo con las reglas, políticas y condiciones aquí descritas. Si no estás de acuerdo con alguna parte, por favor no utilices el servicio.",
+      "2. Uso permitido": "Puedes utilizar este servicio únicamente para fines legales y personales. Queda prohibido el uso indebido, fraudulento, o que interfiera con el funcionamiento del sistema.",
+      "3. Propiedad intelectual": "Todos los contenidos, marcas, logos y diseños son propiedad de [Nombre de la empresa] y están protegidos por las leyes de propiedad intelectual. No puedes copiar, reproducir o distribuir sin autorización previa.",
+      "4. Privacidad": "El tratamiento de tus datos se rige por nuestro Aviso de Privacidad. Al usar el servicio, aceptas que recopilemos y usemos tu información según lo descrito en dicho aviso.",
+      "5. Modificaciones": "Podemos actualizar estos Términos en cualquier momento. Te notificaremos los cambios relevantes. El uso continuado del servicio implica la aceptación de los nuevos términos.",
+      "6. Limitación de responsabilidad": "[Nombre de la empresa] no será responsable por daños directos o indirectos derivados del uso o imposibilidad de uso del servicio.",
+      "7. Contacto": "Si tienes dudas sobre estos Términos y Condiciones, puedes escribirnos a: [correo@dominio.com]."
+    }
+  },
+  "register": {
+    "title": "Comencemos tu registro",
+    "description": "Cuéntanos sobre ti",
+    "register": "Continuar",
+    "form": {
+      "field1": "Nombres (s)",
+      "field1-placeholder": "Ingresa tu nombre",
+      "field2": "Apellidos",
+      "field2-placeholder": "Ingresa tus apellidos",
+      "field3": "Número celular",
+      "field3-placeholder": "Número celular",
+      "field4": "Fecha de nacimiento",
+      "field4-placeholder": "DD/MM/AAAA",
+      "field5": "Contraseña",
+      "field5-placeholder": "************",
+      "field6": "Confirmar contraseña",
+      "field6-placeholder": "************"
+    }
+  },
+  "otp": {
+    "title": "Te enviamos un SMS con un código de seguridad",
+    "description": "Te mandamos un SMS al número con terminación ****[REPLACE] para continuar tu activación. ",
+    "otp": "Continuar",
+    "form": {}
+  },
+  "sidemenu": {
+    "profile": "Mi cuenta",
+    "my-orders": "Mis pedidos",
+    "addresses": "Direcciones",
+    "contact": "Contactos de emergencia",
+    "shared": "Comparte a tus amigos",
+    "support": "Soporte",
+    "privacy": "Política de privacidad",
+    "FAQS": "FAQ's",
+    "close-session": "Cerrar sesión"
+  },
+  "locations": {
+    "title": "Mis Ubicaciones",
+    "near_you": "Cerca de ti",
+    "real_time_disabled": "Tu ubicacion en tiempo real esta desactivada...",
+    "update": "Actualizar",
+    "saved_locations": "Ubicaciones guardadas",
+    "add_location": "Agregar ubicación",
+    "select": {
+      "title": "Elegir una ubicacion",
+      "current_location": "Ubicacion actual",
+      "manual_location": "Ubicacion manual"
+    },
+    "types": {
+      "default": "Seleccionar tipo",
+      "house": "Casa",
+      "building": "Edificio",
+      "apartment": "Departamento"
+    },
+    "current": {
+      "title": "Elegir tu ubicacion",
+      "your_location": "Tu ubicación:",
+      "location_label": "Ubicacion:",
+      "address_not_found": "direccion no encontrada, por favor introduce una manual",
+      "loading": "cargando",
+      "popup_marker": "Tu ubicación",
+      "alerts": {
+        "address_error": "No se pudo obtener la dirección. Por favor, intenta nuevamente o selecciona manualmente.",
+        "loading_address": "Cargando dirección, por favor espera un momento."
+      }
+    },
+    "search": {
+      "title": "Busca un direccion",
+      "tip": "Para encontrar tu ubicacion mas rapido, comienza por el Codigo postal.",
+      "input_label": "Buscar dirección",
+      "input_placeholder": "Ingresa una dirección",
+      "no_results": "No hay resultados"
+    },
+    "add": {
+      "house_number": "Numero de casa:",
+      "house_name": "Nombre de casa:",
+      "references": "Referencias:",
+      "save_address": "Guardar dirección",
+      "popup_marker": "Tu ubicación",
+      "negative_number": "El número no puede ser negativo",
+      "placeholders": {
+        "house_number": "Numero de casa",
+        "name": "Nombre",
+        "reference": "Referencia",
+        "address_type": "Tipo de dirección"
+      },
+      "alerts": {
+        "fill_all_fields": "Por favor, llena todos los campos: dirección, número, nombre y referencias."
+      }
+    },
+    "element": {
+      "delete_tooltip": "Eliminar ubicación",
+      "select_tooltip": "Seleccionar ubicación"
+    }
+  },
+  "home": {
+    "food": "Comida",
+    "snack": "Snacks",
+    "bread": "Café y pan",
+    "stores": "Supermercados",
+    "exp": "Tiendas Exp.",
+    "transport": "Transporte",
+    "restop": "Restaurantes TOP",
+    "combo": "Combos exclusivos",
+    "from": "Come desde",
+    "sell": "Lo más vendido",
+    "location": "Dirección de entrega:",
+    "filters": {
+      "news": "Lo mas nuevo",
+      "price": "Costo de envío",
+      "hashtag": "Hashtags",
+      "quantity": "Calificación"
+    }
+  },
+  "choose": {
+    "msj": "Con DeliveryAldama puedes repartir, vender y pedir, todo en un mismo sitio"
+  },
+  "location": {
+    "title": "Direcciones",
+    "postal-code": "Código postal",
+    "add": "Agregar información adicional",
+    "new": "Nuevo domicilio",
+    "place": "Dirección o lugar de entrega",
+    "nonum": "Mi calle no tiene número",
+    "postalcode": "Código postal",
+    "state": "Estado",
+    "mun": "Municipio",
+    "locality": "Localidad",
+    "col": "Colonia",
+    "numint": "Número interior (opcional)",
+    "about": "Indicaciones para la entrega (opcional)"
+  }
+}

@@ -1,0 +1,40 @@
+# =====================
+# Backend PHP (Composer)
+# =====================
+backend/vendor/
+
+# =====================
+# Frontend Node
+# =====================
+web/site/node_modules/
+web/site/dist/
+web/site/build/
+
+web/common-lib/node_modules/
+web/common-lib/dist/
+web/common-lib/build/
+
+# =====================
+# Env files
+# =====================
+.env
+.env.*
+!.env.example
+
+# =====================
+# Logs
+# =====================
+*.log
+logs/
+
+# =====================
+# OS
+# =====================
+.DS_Store
+Thumbs.db
+
+# =====================
+# IDEs
+# =====================
+.vscode/
+.idea/

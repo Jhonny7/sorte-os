@@ -1,0 +1,34 @@
+.category {
+    width: 82px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: #fff;
+    border-radius: 8px;
+    padding: 5px;
+    font-size: 10px;
+    gap: 6px;
+    box-shadow: 1px 1px 4px #cacaca;
+    flex: 0 0 auto;
+
+    div {
+        width: 82px;
+        height: 50px;
+        border-radius: 8px;
+    }
+
+    img {
+        width: 100%;
+        height: 50px;
+        object-fit: cover;
+        border-radius: 8px;
+    }
+
+    p {
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+}

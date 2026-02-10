@@ -1,0 +1,40 @@
+.header {
+  // box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 64px;
+  padding-left: 10px;
+  padding-right: 10px;
+
+  position: relative;
+  z-index: 1;
+
+}
+
+.nav-button {
+  // box-sizing: border-box;
+  border: none;
+  color: white;
+  background: none;
+  padding-right: 10px;
+}
+
+.top-center {
+  position: absolute;
+  height: 36px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: -1;
+
+  img {
+    width: 88px;
+  }
+}
+
+.top-right {
+  display: flex;
+  gap: 18px;
+}
